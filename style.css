@@ -1,16 +1,14 @@
-@font-face{
-	font-family: p-web;
-	src: url(pagina-web.ttf);
-}
+
 body {
 	position: center;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 h1 {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 15px;
-	font-family: 'p-web';
+	font-family:  'Montserrat';
 	font-size: 35px;
 }
 
@@ -18,12 +16,12 @@ h2 {
 	text-align: center;
 	font-size: 30px;
 	margin-bottom: 20px;
-	font-family: 'p-web';
+	font-family:  'Montserrat';
 	font-weight: lighter;
 }
 
 h3 {
-	font-family: 'p-web';
+	font-family:  'Montserrat';
 	text-align: left;
 	margin-bottom: 15px;
 	font-size: 30px;
@@ -31,11 +29,9 @@ h3 {
 }
 
 h4 {
-	font-family: 'p-web';
-	font-weight: bold;
-	font-size: 35px;
 	margin-bottom: 15px;
 	margin-top: 25px;
+	margin-left: 50px;
 }
 
 p {
@@ -451,4 +447,3 @@ img {
 	height: auto;
 	max-width: 800px;
 }
-
