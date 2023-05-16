@@ -419,6 +419,7 @@ img {
 }
 
 #comments {
+	margin-top: -1090px;
 	margin-left: 350px;
 	width: 1080px;
 }
