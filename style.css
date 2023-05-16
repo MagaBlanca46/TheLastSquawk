@@ -205,14 +205,16 @@ img {
 	margin-top: 15px;
 	height: auto;
 	max-height: 600px;
-	max-width:1080px;
+	max-width: 950px;
 	margin-bottom: 20px;
+	margin-left: -110px;
 }
 
 .slide-inner {
 	position: relative;
 	overflow: hidden;
 	margin-left: 0px;
+	right: 0;
 }
 
 .slide-open:checked + .slide-item {
@@ -228,13 +230,15 @@ img {
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	right: 0;
 	margin-left: -270px;
 }
 
 .slide-item img {
 	display: block;
 	height: auto;
-	max-width: 100%;
+	max-width: 950px;
+	right:0;
 }
 
 .slide-control {
