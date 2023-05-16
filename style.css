@@ -1,3 +1,7 @@
+@font-face{
+	font-family: p-web;
+	src: url(pagina-web.ttf);
+}
 body {
 	position: center;
 }
@@ -6,29 +10,30 @@ h1 {
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 15px;
-	font-family: 'Montserrat';
-	font-size: 25px;
+	font-family: 'p-web';
+	font-size: 35px;
 }
 
 h2 {
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
 	margin-bottom: 20px;
-	font-family: 'Montserrat';
+	font-family: 'p-web';
 	font-weight: lighter;
 }
 
 h3 {
+	font-family: 'p-web';
 	text-align: left;
 	margin-bottom: 15px;
-	font-family: 'Montserrat';
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
 h4 {
+	font-family: 'p-web';
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 35px;
 	margin-bottom: 15px;
 	margin-top: 25px;
 }
@@ -88,8 +93,67 @@ a {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 }
+.contribuciones {
+	width: 213.58px;
+	min-height: 411px;
+	justify-content: space-between;
+	align-items: right;
+	position: right;
+	margin-left: 1250px;
+	margin-top:-305px;
+}
 
+.contribucion1 {
+	display: grid;
+	position: center;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 20px;
+	height: auto;
+	width:350px;
+	max-width: 800px;
+}
+
+.contribucion2 {
+	display: grid;
+	position: center;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 20px;
+	height: auto;
+	width: 350px;
+	max-width: 800px;
+}
+
+.contribucion3 {
+	display: grid;
+	position: center;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 20px;
+	height: auto;
+	width: 350px;
+	max-width: 800px;
+}
+
+.contribucion4 {
+	display: grid;
+	position: center;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 20px;
+	height: auto;
+	width: 350px;
+	max-width: 800px;
+}
+
+.contribucion5 {
+	display: grid;
+	position: center;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 20px;
+	height: auto;
+	width: 350px;
+	max-width: 800px;
+}
 .submenu {
+	width: 259.53px;
 	min-height: 70px;
 	display: flex;
 	justify-content: space-between;
@@ -136,6 +200,7 @@ img {
 	margin-left: 900px;
 	position: center;
 	margin-top: 50px;
+	width: 600px;
 }
 
 .slide {
@@ -268,7 +333,8 @@ img {
 
 #home {
 	margin-left: 350px;
-	width: 1080px;
+	width: 810px;
+	margin-top: -1190px;
 }
 
 #questions {
@@ -312,47 +378,3 @@ img {
 	max-width: 800px;
 }
 
-.contribucion1 {
-	display: grid;
-	position: center;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-	margin-top: 20px;
-	height: auto;
-	max-width: 800px;
-}
-
-.contribucion2 {
-	display: grid;
-	position: center;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-	margin-top: 20px;
-	height: auto;
-	max-width: 800px;
-}
-
-.contribucion3 {
-	display: grid;
-	position: center;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-	margin-top: 20px;
-	height: auto;
-	max-width: 800px;
-}
-
-.contribucion4 {
-	display: grid;
-	position: center;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-	margin-top: 20px;
-	height: auto;
-	max-width: 800px;
-}
-
-.contribucion5 {
-	display: grid;
-	position: center;
-	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-	margin-top: 20px;
-	height: auto;
-	max-width: 800px;
-}
