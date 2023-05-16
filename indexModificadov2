@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+
+	<section class="letras">
+		<link rel="preconnet" href="https://fonts.googleapis.com%22%3E/">
+		<link rel="preconnet" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+	</section>
+	
+	<script type="text/javascript" src="funciones.js"></script>
+	
+	<link rel="icon" !(/TheLastSquawk/Imágenes/logo_kickstarter.png) href="Imágenes/logo_kickstarter.png" type="image/gif" sizes="16x16">
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	<title>The Last Squawk</title>
+
+</head>
+
+<body>
+
+	<section class="intro">
+		<h1> The Last Squawk </h1>
+		<h2> Enfréntate con otros jugadores en peleas emocionantes mientras avanzas por el tablero de la oca </h2>
+
+
+		<div class="image" align="center" id="portada">
+			<img src="Imágenes/portada.png" alt="Portada del videojuego" align="left">
+		</div>
+		<div class="text">
+			<p>
+				The Last Squawk es una emocionante aventura en la que los jugadores se enfrentan en intensas batallas mientras avanzan
+				por un tablero. Cada casilla puede desatar una pelea y los jugadores deben usar sus habilidades y estrategias para vencer a sus
+				oponentes y avanzar hacia la meta. Además de los combates, el juego incluye una variedad de power-ups y sorpresas que pueden cambiar
+				el curso de la partida. Con gráficos vibrantes y un estilo de juego divertido y desafiante, este videojuego es perfecto para aquellos
+				que buscan una experiencia de juego de mesa única y emocionante en su consola.
+			</p>
+			<p> Creado por FireCorp, Grupo B </p>
+			<p>
+				<strong> ATENCIÓN:</strong> Esta página simula la campaña de microfinanciación de un videojuego ficticio y no representa un producto real.<br>
+				Práctica de Multimedia, 1º GDDV - Curso 22/23 (Quintana), URJC.
+				La URJC no se hace responsable del contenido expuesto por el autor.
+			</p>
+			<br>
+			<p style="font-size:25px"> Dinero recaudado: $5,000 </p>
+			<button class="button" onclick="document.getElementById('donación').style.display='block';"> Donar </button>
+			<div class="donation" id="donación" style="display:none">
+				<p style="margin-left:15px;"> Lo sentimos, ha habido un problema. Prueba más tarde. </p>
+			</div>
+			<br><br><br><br><br><br><br><br><br>
+		</div>
+
+	</section>
+
+	<nav class="menu">
+		<ul class="menu-principal">
+			<li><a href="#home"> Campaña </a></li>
+			<li><a href="preguntas.html"> Preguntas frecuentes </a></li>
+			<li><a href="comentarios.html"> Comentarios </a></li>
+			<li style="border-right:1px solid black"><a href="comunidad.html"> Comunidad </a></li>
+		</ul>
+	</nav>
+	<nav class="submenu" align="right">
+		<ul class="sub-menu">
+			<li class="item"><a href="#description"> Descripción </a></li>
+			<li><a href="#history"> Historia </a></li>
+			<li><a href="#char"> Características del gameplay </a></li>
+			<li><a href="#obj"> Objetivos </a></li>
+			<li><a href="#team"> Equipo </a></li>
+		</ul>
+	</nav>
+	<div class="contribuciones">
+
+		<div class="contribucion1">
+			<p style="font-size:30px; font-weight:bold; margin-left:15px; margin-bottom:10px;"> Contribución de 10$ </p>
+			<p style="margin-left:15px;">
+				Acceso anticipado a la demo del juego. Fecha de entrega aproximada: 6 meses después del final de la
+				campaña de Kickstarter.
+			</p>
+		</div>
+		<div class="contribucion2">
+			<p style="font-size:30px; font-weight:bold; margin-left:15px; margin-bottom:10px;"> Contribución de 25$ </p>
+			<p style="margin-left:15px;">
+				Una copia digital del juego completo para su plataforma de elección (PC o consola). Fecha de entrega
+				aproximada: 1 año después del final de la campaña de Kickstarter.
+			</p>
+		</div>
+
+		<div class="contribucion3">
+			<p style="font-size:30px; font-weight:bold; margin-left:15px; margin-bottom:10px;"> Contribución de 50$ </p>
+			<p style="margin-left:15px;">
+				Una copia física del juego completo en<br /> una caja con arte exclusivo y un manual de instrucciones. Fecha
+				de entrega aproximada: 1 año y medio después del final de la campaña de Kickstarter.
+			</p>
+		</div>
+
+		<div class="contribucion4">
+			<p style="font-size:30px; font-weight:bold; margin-left:15px; margin-bottom:10px;"> Contribución de 100$ </p>
+			<p style="margin-left:15px;">
+				Una copia física del juego completo, una camiseta exclusiva del juego y una pegatina. Fecha de entrega
+				aproximada: 1 año y medio después del final de la campaña de Kickstarter.
+			</p>
+		</div>
+
+		<div class="contribucion5">
+			<p style="font-size:30px; font-weight:bold; margin-left:15px; margin-bottom:10px;"> Contribución de 500$ </p>
+			<p style="margin-left:15px;">
+				Tu nombre aparecerá en los créditos del juego como un patrocinador y recibirás una copia física del juego
+				firmada por el equipo de desarrollo, junto con una camiseta exclusiva del jeugo y una pegatina.
+				Fecha de entrega aproximada: 1 año y medio después del final de la campaña de Kickstarter.
+			</p>
+		</div>
+
+	</div>
+	<section id="home">
+		<a name="home">
+			<p>
+				Bienvenidos a nuestra campaña de Kickstarter para The Last Squawk. Únete a nosotros en esta aventura para financiar la creación de un videojuego
+				épico y emocionante que te llevará a través de mundos imaginarios y te hará vivir experiencias inolvidables.
+			</p>
+
+			<h4><a name="description"><img src="Imágenes/banner-descripcion.png" style="margin-left:-50px;max-width:500px; height:auto;"> </a></h4>
+
+			<p>
+				¡Bienvenido al emocionante mundo del videojuego que mezcla el clásico juego de la oca con peleas épicas! En este juego podrás disfrutar de una emocionante
+				aventura mientras avanzas por el tablero de la oca y luchas contra tus oponentes para llegar a la meta.
+			</p>
+
+			<p>
+				El objetivo del juego es simple: llegar a la casilla final antes que tus oponentes. Sin embargo, el camino hacia la meta está lleno de desafíos, obstáculos
+				y sorpresas. Cada casilla del tablero te llevará a una nueva arena de combate donde tendrás que luchar contra un oponente para avanzar al siguiente nivel.
+			</p>
+
+			<p>
+				El juego cuenta con una amplia variedad de personajes jugables, cada uno con sus propias habilidades y estilos de lucha únicos. Puedes elegir entre luchadores rápidos
+				y ágiles, o pesados y poderosos. Además, cada personaje tiene su propia historia y trasfondo, lo que hace que cada juego sea una experiencia única.
+			</p>
+
+			<p>
+				Las arenas de combate son igualmente variadas, con entornos que van desde ciudades modernas hasta templos antiguos y cuevas misteriosas. Cada arena está diseñada para
+				poner a prueba tus habilidades de lucha y estrategia y ofrece una experiencia de juego única.
+			</p>
+
+			<p>
+				El juego también cuenta con una mecánica de dados, al igual que el juego de la oca original. Cada vez que avanzas en el tablero, tendrás que tirar los dados y avanzar
+				el número de casillas correspondiente. Sin embargo, ten cuidado: algunas casillas tienen sorpresas que pueden ayudarte o perjudicarte en tu camino hacia la meta.
+			</p>
+
+			<p>
+				Además de las peleas, el juego también incluye varios minijuegos que te ayudarán a avanzar. Estos minijuegos van desde juegos de carreras hasta juegos
+				de memoria y lógica. Esto agrega variedad al juego.
+			</p>
+
+			<p>
+				Una de las características más destacadas del juego es su modo multijugador. Puedes jugar contra amigos o jugadores de todo el mundo, y competir por el primer lugar en
+				la clasificación. Además, también puedes unirte a equipos y competir en torneos y eventos especiales.
+			</p>
+
+			<p>
+				El juego también cuenta con una amplia variedad de recompensas y desbloqueables. A medida que avanzas en el juego desbloquearás nuevos personajes, arenas y habilidades.
+				También puedes desbloquear trajes y accesorios especiales para personalizar tu personaje.
+			</p>
+
+			<p>
+				En resumen, este videojuego ofrece una experiencia de juego única, emocionante y variada gracias a su amplia variedad de personajes jugables,
+				arenas de combate y minijuegos. Además, con su modo multijugador y sistema de recompensas
+				el juego es perfecto para jugadores que buscan una experiencia competitiva.
+			</p>
+
+			<div class="slide">
+				<div class="slide-inner">
+					<input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+					<div class="slide-item">
+						<!--TheLastSquawk/Imágenes/tablero.png)--><img src="Imágenes/tablero.png">
+					</div>
+					<input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<!--!(/TheLastSquawk/Imágenes/caballero-definitivo.png)--><img src="Imágenes/caballero-definitivo.png" alt="Caballero">
+					</div>
+					<input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<!--!(/TheLastSquawk/Imágenes/bruja-definitiva.png)--><img src="Imágenes/bruja-definitiva.png" alt="Bruja">
+					</div>
+					<input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<!--!(/TheLastSquawk/Imágenes/principe-definitivo.png)--><img src="Imágenes/principe-definitivo.png" alt="Príncipe">
+					</div>
+					<input class="slide-open" type="radio" id="slide-5" name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<!--!(/TheLastSquawk/Imágenes/princesa-definitiva.png)--><img src="Imágenes/princesa-definitiva.png" alt="Princesa">
+					</div>
+					<label for="slide-4" class="slide-control next control-3">›</label>
+					<label for="slide-3" class="slide-control prev control-1">‹</label>
+					<label for="slide-2" class="slide-control next control-1">›</label>
+					<label for="slide-1" class="slide-control prev control-2">‹</label>
+					<label for="slide-4" class="slide-control prev control-5">‹</label>
+					<label for="slide-3" class="slide-control next control-2">›</label>
+					<label for="slide-2" class="slide-control prev control-3">‹</label>
+					<label for="slide-1" class="slide-control next control-4">›</label>
+					<label for="slide-3" class="slide-control prev control-4">‹</label>
+					<label for="slide-5" class="slide-control next control-4">›</label>
+					<label for="slide-5" class="slide-control prev control-1">‹</label>
+					<label for="slide-1" class="slide-control next control-5">›</label>
+					<ol class="slide-indicador">
+						<li>
+							<label for="slide-1" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-2" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-3" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-4" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-5" class="slide-circulo">•</label>
+						</li>
+					</ol>
+				</div>
+			</div>
+
+			<h4><a name="history"><img src="Imágenes/banner-historia.png" style="margin-left:-50px;max-width:500px; height:auto;"></a></h4>
+
+			<p>
+				Había una vez un reino mágico en el que la gente vivía en armonía y paz. Sin embargo, un día una fuerza oscura invadió el reino y lo sumió en el caos y la destrucción.
+				Para restaurar el orden, un grupo de valientes guerreros se unió para derrotar a la amenaza y devolver la paz al reino.
+			</p>
+
+			<p>
+				Pero esta no era una tarea fácil. La fuerza oscura había escondido un amuleto mágico en algún lugar del reino, y solo podrían encontrarlo si completaban un desafío épico.
+				Decidieron usar un juego de la oca para representar este desafío, pero había un giro: en cada casilla, tendrían que luchar contra un enemigo para avanzar.
+			</p>
+
+			<p>
+				Los guerreros comenzaron su viaje por el tablero de la oca luchando contra todo tipo de enemigos, desde monstruos terribles hasta rivales humanos astutos. Cada vez que
+				vencían a un oponente recibían una recompensa, como una mejora de sus habilidades de lucha o un objeto mágico que les ayudaría en su búsqueda.
+			</p>
+
+			<p>
+				A medida que avanzaban por el tablero, los guerreros descubrieron que la fuerza oscura había enviado a sus mejores soldados para detenerlos. Cada vez que derrotaban a
+				uno de estos jefes, obtenían pistas sobre la ubicación del amuleto mágico.
+			</p>
+
+			<p>
+				El juego también cuenta con una mecánica de dados, al igual que el juego de la oca original. Cada vez que avanzas en el tablero, tendrás que tirar los dados y avanzar
+				el número de casillas correspondiente. Sin embargo, ten cuidado: algunas casillas tienen sorpresas que pueden ayudarte o perjudicarte en tu camino hacia la meta.
+			</p>
+
+			<p>
+				Además de las peleas, el juego también incluye varios minijuegos que te ayudarán a avanzar. Estos minijuegos van desde juegos de carreras hasta juegos
+				de memoria y lógica. Esto agrega variedad al juego.
+			</p>
+
+			<p>
+				Una de las características más destacadas del juego es su modo multijugador. Puedes jugar contra amigos o jugadores de todo el mundo, y competir por el primer lugar en
+				la clasificación. Además, también puedes unirte a equipos y competir en torneos y eventos especiales.
+			</p>
+
+			<p>
+				El juego también cuenta con una amplia variedad de recompensas y desbloqueables. A medida que avanzas en el juego desbloquearás nuevos personajes, arenas y habilidades.
+				También puedes desbloquear trajes y accesorios especiales para personalizar tu personaje.
+			</p>
+
+			<p>
+				En resumen, este videojuego ofrece una experiencia de juego única, emocionante y variada gracias a su amplia variedad de personajes jugables,
+				arenas de combate y minijuegos. Además, con su modo multijugador y sistema de recompensas
+				el juego es perfecto para jugadores que buscan una experiencia competitiva.
+			</p>
+
+			<audio controls>
+				<source src="cancionJuegoMultimedia2.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+			</audio>
+
+			<h4><a name="char"><img src="Imágenes/banner-caracteristicas.png" style="margin-left:-50px;max-width:500px; height:auto;"> </a></h4>
+
+			<p> - Un modo de juego que mezcla la oca y las peleas, combina elementos de estrategia y habilidad para ofrecer una experiencia emocionante e impredecible.</p>
+
+			<p> - Una variedad de personajes con habilidades únicas, cada uno con su propio estilo de lucha y movimientos especiales que los jugadores pueden desbloquear y mejorar.</p>
+
+			<p>
+				- Un tablero de la oca con casillas especiales que pueden desencadenar eventos aleatorios, power-ups, sorpresas y desafíos de combate; lo que significa que cada
+				partida es diferente y siempre hay algo nuevo que descubrir.
+			</p>
+
+			<p> - Gráficos vibrantes y una banda sonora emocionante que llevan a los jugadores a través de mundos imaginarios llenos de detalles y sorpresas.</p>
+
+			<p> - Un modo multijugador para desafiar a amigos y otros jugadores en línea, con clasificaciones y torneos que permiten a los jugadores mostrar su habilidad y estrategia.</p>
+
+			<video width="1080" height="600" align="center" alt="Vídeo sobre el videojuego" controls>
+				<source src="VideoMultimediaDefinitivo.mp4" type="video/mp4">
+				<source src="VideoMultimediaDefinitivo.ogg" type="video/ogg">
+				Your browser does not support the video tag.
+			</video>
+
+
+			<p>
+				Es importante tener en cuenta que las fechas de entrega son aproximadas y pueden variar según el progreso del desarrollo del juego.
+				Además, cada contribución puede tener limitaciones y condiciones específicas que se deben revisar antes de hacer la compra.
+			</p>
+
+
+			<h4><a name="obj"><img src="Imágenes/banner-objetivos.png" style="margin-left:-50px;max-width:500px; height:auto;"></a></h4>
+
+			<p>
+				<strong><u> 1. Objetivo mínimo: $10,000</u></strong> - Con este dinero se podrá desarrollar una versión básica del juego con una selección de personajes y arenas de lucha. Se asegurará la
+				viabilidad de la producción del juego y se garantizará la entrega de la versión básica a todos los patrocinadores.
+			</p>
+
+			<p>
+				<strong><u>2. Objetivo extra: $20,000</u></strong> - Si se alcanza este objetivo se agregarán más personajes jugables y se ampliará la selección de arenas de lucha. Además, se
+				agregarán más modos de juego y se mejorará la inteligencia artificial de los personajes no jugables.
+			</p>
+
+			<p>
+				<strong><u> 3. Objetivo extra: $30,000</u></strong> - Si se alcanza este objetivo se mejorará la calidad gráfica del juego y se agregarán animaciones más fluidas y realistas a los
+				personajes. También se agregarán más efectos visuales y sonoros para mejorar la experiencia de juego.
+			</p>
+
+			<p>
+				<strong><u>4. Objetivo extra: $50,000</u></strong> - Si se alcanza este objetivo se agregarán más modos de juego, incluyendo un modo de historia que permitirá a los jugadores
+				profundizar en el trasfondo y las motivaciones de cada personaje. También se agregarán más habilidades y power-ups para los personajes jugables.
+			</p>
+
+			<p>
+				<strong><u> 5. Objetivo extra: $100,000</u></strong> - Si se alcanza este objetivo se agregará un modo de juego en línea que permitirá a los jugadores desafiar a otros jugadores de todo
+				el mundo. También se agregará soporte para realidad virtual para mejorar aún más la experiencia de juego.
+			</p>
+
+			<h4><a name="team"><img src="Imágenes/banner-equipo.png" style="margin-left:-50px;max-width:500px; height:auto;"></a></h4>
+			<p style="font-weight:bold;"> - Ana María Caamaño del Amo </p>
+		<p> Tareas en el trabajo: diseño y programación de la web y community manager. </p>
+		<p>	Tareas en el videojuego: programadora de IA y de multijugador. </p>
+		<p style="font-weight:bold;"> - Javier Martín Mulero </p>
+		<p> Tareas en el trabajo: diseño y programación de la web. </p>
+		<p>	Tareas en el videojuego: programador de los personajes y del motor de juego y comunity manager en twitter.  </p>
+		<p style="font-weight:bold;"> - Jesús Mercado Rioja </p>
+		<p> Tareas en el trabajo: diseño de carátula, diseño de personajes, diseño de fichas y tablero y animación de las fichas sobre el tablero y diseño del vídeo. </p>
+		<p>	Tareas en el videojuego: concept arte y diseño personajes y entornos.  </p>
+		<p style="font-weight:bold;"> - Unai Pastrana Torres  </p>
+		<p> Tareas en el trabajo: música, diseño de personajes, diseño de fichas y tablero, diseño y animación del dado y montaje y diseño del vídeo.</p>
+		<p>	Tareas en el videojuego: concept art y diseño personajes y entornos.	
+		<p style="font-weight:bold;"> - Lara Sánchez Sanz </p>
+		<p> Tareas en el trabajo: </p>
+		<p>	Tareas en el videojuego: </p>
+		</a>
+	</section>
+
+	<section class="contactar" style="margin-top:100px">
+		<br>
+		<p align="center" style="margin-left:400px;"> Para contactarnos puedes hacerlo a través de nuestro correo: <a href="mailto:firecorpgrupob@gmail.com" style="color:white"> firecorpgrupob@gmail.com </a></p><br>
+		<p align="center" style="margin-left:400px;"> O si lo prefieres déjanos un tweet o comentario mencionándonos en nuestras redes sociales: </p> <br>
+		<p align="center" style="margin-left:400px;"><u><strong> Twitter  </strong></u> &nbsp <a href="https://twitter.com/FireCorpGames" style="color:white"> @FireCorpGames </a></p>
+		<p align="center" style="margin-left:400px;"><u><strong> Instagram </strong></u> &nbsp <a href="https://www.instagram.com/firecorpgames/" style="color:white"> @FireCorpGames </a></p>
+		<p align="center" style="margin-left:400px;"><u><strong> YouTube </strong></u> &nbsp <a href="https://www.youtube.com/channel/UC2f7Pzaim-IW0asf5OxU06w" style="color:white"> @FireCorpGames </a></p>
+		<br>
+	</section>
+
+</body>
+</html>
